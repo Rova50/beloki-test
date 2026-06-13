@@ -15,11 +15,7 @@
             <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
                 <header class="flex items-center justify-between py-10">
                     <div class="flex items-center gap-2">
-                        <div class="h-10 w-10 rounded-lg bg-indigo-600 flex items-center justify-center shadow-lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                            </svg>
-                        </div>
+                        <img src="{{ asset('images/logo.png') }}" alt="Logo" class="h-10 w-auto">
                         <span class="text-2xl font-bold tracking-tight text-gray-900">Beloki</span>
                     </div>
                     @if (Route::has('login'))
